@@ -1,0 +1,22 @@
+#div-board div {
+  height: 32px;
+}
+
+#div-board span {
+  display: inline-block;
+  border: 1px solid #242d1f;
+  width: 30px;
+  height: 30px;
+}
+
+#div-board span.black {
+  background: #544d3f;
+}
+
+#div-board span.white {
+  background: #ffffff;
+}
+
+#div-board span.empty {
+  background: #ffd76e;
+}
