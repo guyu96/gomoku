@@ -4,10 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Gomoku</title>
 </head>
 <body>
-  <canvas id="board"></canvas>
+  <canvas id="canvas-board" height="0" width="0"></canvas>
+  <div id="div-board">
+
+  </div>
+  <div class="container">
+    <p id="status">Game ongoing</p>
+    <button id="undo">Undo</button>
+  </div>
   <script src="gomoku.js"></script>
 </body>
 </html>
